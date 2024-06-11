@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="443.0" prefWidth="368.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameController">
+   <children>
+      <Text fx:id="winnerGame" layoutX="1.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tic Tac Toe" textAlignment="CENTER" wrappingWidth="368.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Separator layoutY="55.0" prefHeight="3.0" prefWidth="368.0" />
+      <Button fx:id="buttonOne" layoutX="36.0" layoutY="84.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="95.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonTwo" layoutX="137.0" layoutY="84.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="95.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonThree" layoutX="238.0" layoutY="84.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="95.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonFour" layoutX="36.0" layoutY="180.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="95.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonFive" layoutX="137.0" layoutY="180.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="95.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonSix" layoutX="238.0" layoutY="180.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="95.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonSeven" layoutX="36.0" layoutY="276.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="95.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonEight" layoutX="137.0" layoutY="276.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="95.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonNine" layoutX="238.0" layoutY="276.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="95.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="60.0" layoutY="386.0" mnemonicParsing="false" onAction="#restartButton" prefHeight="42.0" prefWidth="108.0" text="Restart Game" />
+      <Button layoutX="201.0" layoutY="386.0" mnemonicParsing="false" onAction="#closeButton" prefHeight="42.0" prefWidth="108.0" text="Close" />
+   </children>
+</AnchorPane>
